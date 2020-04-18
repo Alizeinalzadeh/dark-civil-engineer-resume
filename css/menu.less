@@ -1,0 +1,105 @@
+@import url("./style.less");
+// MENU
+
+.zd-menu-scroll {
+  color: @white-color !important;
+  button {
+    color: @white-color !important;
+    &:hover {
+      background: linear-gradient(to right, @white-color 2px, transparent 1px) 0
+          0,
+        linear-gradient(to left, @white-color 2px, transparent 1px) 100% 100%,
+        linear-gradient(to bottom, @white-color 2px, transparent 1px) 0 0,
+        linear-gradient(to top, @white-color 2px, transparent 1px) 100% 100% !important;
+      background-repeat: no-repeat;
+      background-size: 50%;
+    }
+
+    a {
+      text-decoration: none;
+      color: @white-color !important;
+      &:visited {
+        color: @white-color !important;
+      }
+    }
+  }
+  button.active {
+    background-color: @white-color !important;
+    color: @white-color !important;
+    a {
+      color: @white-color !important;
+    }
+    background: linear-gradient(to right, @white-color 2px, transparent 1px) 0 0,
+      linear-gradient(to left, @white-color 2px, transparent 1px) 100% 100%,
+      linear-gradient(to bottom, @white-color 2px, transparent 1px) 0 0,
+      linear-gradient(to top, @white-color 2px, transparent 1px) 100% 100% !important;
+    background-repeat: no-repeat;
+    background-size: 50%;
+  }
+}
+
+.zd-menu {
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  cursor: pointer;
+  position: fixed;
+  top: 30px;
+  text-align: center;
+  z-index: 70;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  color: @main-color;
+  button {
+    border-radius: 15px;
+    background-color: transparent;
+    border: none;
+    position: relative;
+    padding: 10px 25px;
+    margin-right: 50px;
+    font-weight: bold;
+    &:last-child {
+      margin-right: 0;
+    }
+    &:hover {
+      background: linear-gradient(to right, @main-color 2px, transparent 1px) 0
+          0,
+        linear-gradient(to left, @main-color 2px, transparent 1px) 100% 100%,
+        linear-gradient(to bottom, @main-color 2px, transparent 1px) 0 0,
+        linear-gradient(to top, @main-color 2px, transparent 1px) 100% 100%;
+      background-repeat: no-repeat;
+      background-size: 50%;
+    }
+
+    a {
+      text-decoration: none;
+      &:visited {
+        color: @main-color;
+      }
+    }
+  }
+  button.active {
+    background-color: @white-color;
+    a {
+      color: @main-color;
+    }
+    background: linear-gradient(to right, @main-color 2px, transparent 1px) 0 0,
+      linear-gradient(to left, @main-color 2px, transparent 1px) 100% 100%,
+      linear-gradient(to bottom, @main-color 2px, transparent 1px) 0 0,
+      linear-gradient(to top, @main-color 2px, transparent 1px) 100% 100%;
+    background-repeat: no-repeat;
+    background-size: 50%;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .zd-menu {
+    button {
+      margin-right: 10px;
+      padding: 5px 15px;
+    }
+  }
+}

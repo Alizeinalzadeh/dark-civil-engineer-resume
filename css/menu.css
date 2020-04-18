@@ -1,0 +1,529 @@
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span {
+  font-family: "Comfortaa", cursive;
+}
+html {
+  scroll-behavior: smooth;
+}
+.row {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+.zd-center {
+  height: 100vh;
+  padding: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.zd-center h2 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 80px;
+  position: absolute;
+  top: 100px;
+}
+.zd-intro-content {
+  height: 100vh;
+  padding: 200px;
+}
+.zd-intro {
+  height: 100vh;
+  padding: 200px;
+  background-image: url("../img/intro.png") !important;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: cover;
+}
+.zd-intro p {
+  font-size: 45px;
+  font-weight: bold;
+  color: #171d35;
+  margin-bottom: 30px;
+}
+.zd-intro h1,
+.zd-intro span {
+  display: inline-block;
+  font-size: 50px;
+  color: #171d35;
+  margin-bottom: 15px;
+}
+.zd-intro h2 {
+  font-size: 20px;
+  color: #171d35;
+  font-weight: bold;
+}
+.zd-intro button {
+  margin: 30px 0;
+  border: 1px solid #171d35;
+  border-radius: 15px;
+  padding: 15px 25px;
+  background-color: #171d35;
+  color: #ffffff;
+  font-size: 20px;
+}
+.zd-intro button:hover {
+  background-color: #ffffff;
+  color: #171d35;
+}
+.zd-intro .zd-socials span {
+  font-size: 15px;
+  border-radius: 90px;
+  padding: 10px;
+  color: #ffffff;
+  background-color: #171d35;
+  margin-right: 15px;
+  cursor: pointer;
+  border: 1px solid #171d35;
+}
+.zd-intro .zd-socials span:last-child {
+  margin-right: 0;
+}
+.zd-intro .zd-socials span:hover {
+  background-color: #ffffff;
+  color: #171d35;
+  border: 1px solid #171d35;
+}
+.zd-about {
+  height: 100vh;
+  padding: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #171d35;
+}
+.zd-about h2 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 80px;
+  position: absolute;
+  top: 100px;
+}
+.zd-about p {
+  color: #818181;
+  text-align: justify;
+}
+.zd-education {
+  height: 100vh;
+  padding: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #0f152d;
+}
+.zd-education h2 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 80px;
+  position: absolute;
+  top: 100px;
+}
+.zd-education .zd-content {
+  width: 90%;
+}
+.zd-education .zd-date {
+  color: #c1c140;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.zd-education .zd-title {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.zd-education .zd-place {
+  color: #818181;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.zd-education .zd-detail {
+  color: #818181;
+  font-size: 17px;
+  font-weight: normal;
+}
+.zd-education .zd-detail p {
+  margin-bottom: 20px;
+}
+.zd-experiences {
+  height: 100vh;
+  padding: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #171d35;
+}
+.zd-experiences h2 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 80px;
+  position: absolute;
+  top: 100px;
+}
+.zd-experiences .zd-content {
+  width: 90%;
+}
+.zd-experiences .zd-date {
+  color: #c1c140;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.zd-experiences .zd-place {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.zd-experiences .zd-position {
+  color: #818181;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.zd-experiences .zd-detail {
+  color: #818181;
+  font-size: 17px;
+  font-weight: normal;
+}
+.zd-experiences .zd-detail p {
+  margin-bottom: 20px;
+}
+.zd-research {
+  height: 100vh;
+  padding: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #0f152d;
+}
+.zd-research h2 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 80px;
+  position: absolute;
+  top: 100px;
+}
+.zd-research .zd-date {
+  color: #c1c140;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.zd-research .zd-content {
+  color: #818181;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  line-height: 25px;
+}
+.zd-research .zd-detail {
+  color: #818181;
+  font-size: 17px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+.zd-research .zd-interests {
+  display: block;
+  position: absolute;
+  bottom: 60px;
+  left: 215px;
+}
+.zd-research .zd-interests .zd-title {
+  color: #c1c140;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.zd-research .zd-interests .zd-tasks li {
+  font-size: 20px;
+  color: #818181;
+  font-weight: normal;
+  margin-bottom: 15px;
+  list-style: disc;
+  margin-left: 20px;
+}
+.zd-certificates {
+  height: 100vh;
+  padding: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #171d35;
+}
+.zd-certificates h2 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 80px;
+  position: absolute;
+  top: 100px;
+}
+.zd-certificates .zd-title {
+  color: #c1c140;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.zd-certificates .zd-place {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.zd-certificates .zd-score {
+  color: #818181;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.zd-certificates .zd-cert-list {
+  margin-top: 80px;
+  left: 200px;
+  position: absolute;
+}
+@media (max-width: 575.98px) {
+  .zd-intro-content {
+    height: 100vh;
+    padding: 150px 50px 0 50px;
+    text-align: center;
+  }
+  .zd-center {
+    height: 100vh;
+    padding: 0px 20px;
+  }
+  .zd-center h2 {
+    font-size: 28px;
+    margin-bottom: 60px;
+    top: 80px;
+  }
+  .zd-intro {
+    height: 100vh;
+    padding: 150px 50px 0 50px;
+    text-align: center;
+  }
+  .zd-intro p {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  .zd-intro h1,
+  .zd-intro span {
+    font-size: 30px;
+  }
+  .zd-intro h2 {
+    font-size: 18px;
+  }
+  .zd-intro button {
+    margin: 80px 0;
+  }
+  .zd-about {
+    height: 100vh;
+    padding: 0px 20px;
+    background-color: #171d35;
+  }
+  .zd-about h2 {
+    font-size: 28px;
+    margin-bottom: 60px;
+    top: 80px;
+  }
+  .zd-about p {
+    color: #818181;
+    text-align: justify;
+  }
+  .zd-education {
+    height: 100vh;
+    padding: 0px 20px;
+  }
+  .zd-education h2 {
+    font-size: 28px;
+    margin-bottom: 60px;
+    top: 80px;
+  }
+  .zd-education .zd-content {
+    padding: 20px;
+  }
+  .zd-education .zd-title {
+    color: #ffffff;
+    font-size: 20px;
+  }
+  .zd-experiences {
+    height: 100vh;
+    padding: 0px 20px;
+  }
+  .zd-experiences h2 {
+    font-size: 28px;
+    margin-bottom: 60px;
+    top: 80px;
+  }
+  .zd-experiences .zd-content {
+    padding: 20px;
+  }
+  .zd-experiences .zd-place {
+    font-size: 20px;
+  }
+  .zd-experiences .zd-position {
+    font-size: 15px;
+  }
+  .zd-experiences .zd-detail {
+    font-size: 12px;
+  }
+  .zd-research {
+    height: 100vh;
+    padding: 0px 20px;
+  }
+  .zd-research h2 {
+    font-size: 28px;
+    margin-bottom: 60px;
+    top: 80px;
+  }
+  .zd-research .zd-content {
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+  .zd-research .zd-detail {
+    font-size: 15px;
+  }
+  .zd-research .zd-interests {
+    bottom: 0px;
+    left: 0;
+    padding: 35px;
+  }
+  .zd-research .zd-interests .zd-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .zd-research .zd-interests .zd-tasks li {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .zd-certificates {
+    height: 100vh;
+    padding: 0px 20px;
+  }
+  .zd-certificates h2 {
+    font-size: 28px;
+    margin-bottom: 60px;
+    top: 80px;
+  }
+  .zd-certificates .zd-place {
+    font-size: 20px;
+  }
+  .zd-certificates .zd-score {
+    font-size: 15px;
+  }
+  .zd-certificates .zd-cert-list {
+    margin-top: 80px;
+    left: auto;
+  }
+}
+.zd-menu-scroll {
+  color: #ffffff !important;
+}
+.zd-menu-scroll button {
+  color: #ffffff !important;
+}
+.zd-menu-scroll button:hover {
+  background: linear-gradient(to right, #ffffff 2px, transparent 1px) 0 0, linear-gradient(to left, #ffffff 2px, transparent 1px) 100% 100%, linear-gradient(to bottom, #ffffff 2px, transparent 1px) 0 0, linear-gradient(to top, #ffffff 2px, transparent 1px) 100% 100% !important;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+.zd-menu-scroll button a {
+  text-decoration: none;
+  color: #ffffff !important;
+}
+.zd-menu-scroll button a:visited {
+  color: #ffffff !important;
+}
+.zd-menu-scroll button.active {
+  background-color: #ffffff !important;
+  color: #ffffff !important;
+  background: linear-gradient(to right, #ffffff 2px, transparent 1px) 0 0, linear-gradient(to left, #ffffff 2px, transparent 1px) 100% 100%, linear-gradient(to bottom, #ffffff 2px, transparent 1px) 0 0, linear-gradient(to top, #ffffff 2px, transparent 1px) 100% 100% !important;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+.zd-menu-scroll button.active a {
+  color: #ffffff !important;
+}
+.zd-menu {
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  cursor: pointer;
+  position: fixed;
+  top: 30px;
+  text-align: center;
+  z-index: 70;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  color: #171d35;
+}
+.zd-menu button {
+  border-radius: 15px;
+  background-color: transparent;
+  border: none;
+  position: relative;
+  padding: 10px 25px;
+  margin-right: 50px;
+  font-weight: bold;
+}
+.zd-menu button:last-child {
+  margin-right: 0;
+}
+.zd-menu button:hover {
+  background: linear-gradient(to right, #171d35 2px, transparent 1px) 0 0, linear-gradient(to left, #171d35 2px, transparent 1px) 100% 100%, linear-gradient(to bottom, #171d35 2px, transparent 1px) 0 0, linear-gradient(to top, #171d35 2px, transparent 1px) 100% 100%;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+.zd-menu button a {
+  text-decoration: none;
+}
+.zd-menu button a:visited {
+  color: #171d35;
+}
+.zd-menu button.active {
+  background-color: #ffffff;
+  background: linear-gradient(to right, #171d35 2px, transparent 1px) 0 0, linear-gradient(to left, #171d35 2px, transparent 1px) 100% 100%, linear-gradient(to bottom, #171d35 2px, transparent 1px) 0 0, linear-gradient(to top, #171d35 2px, transparent 1px) 100% 100%;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+.zd-menu button.active a {
+  color: #171d35;
+}
+@media (max-width: 575.98px) {
+  .zd-menu button {
+    margin-right: 10px;
+    padding: 5px 15px;
+  }
+}
